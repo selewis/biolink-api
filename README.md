@@ -73,9 +73,7 @@ pyvenv venv
 source venv/bin/activate
 pip install -r requirements.txt
 export PYTHONPATH=.:$PYTHONPATH
-python biolink/app.py
 ```
-
 to run:
 
 ```
